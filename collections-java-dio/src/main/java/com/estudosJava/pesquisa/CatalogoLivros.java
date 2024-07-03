@@ -1,7 +1,5 @@
 package com.estudosJava.pesquisa;
 
-import list.operacoesBasicas.CarrinhoDeCompras;
-
 import java.util.ArrayList;
 import java.util.List;
 
