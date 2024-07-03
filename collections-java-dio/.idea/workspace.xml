@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado carrinho de compra | lista de tarefas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/ListaTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/ListaTarefa.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="adicionado metodos ao carrinho de compras e lista de tarefas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719962953164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adicionado metodos ao carrinho de compras e lista de tarefas">
+      <option name="closed" value="true" />
+      <created>1719966210358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719966210358</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primeiro commit" />
     <MESSAGE value="criado carrinho de compra | lista de tarefas" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado carrinho de compra | lista de tarefas" />
+    <MESSAGE value="adicionado metodos ao carrinho de compras e lista de tarefas" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado metodos ao carrinho de compras e lista de tarefas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
