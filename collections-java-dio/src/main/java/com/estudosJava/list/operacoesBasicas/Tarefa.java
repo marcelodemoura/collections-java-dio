@@ -1,4 +1,4 @@
-package com.estudosJava.operacoesBasicas;
+package com.estudosJava.list.operacoesBasicas;
 
 public class Tarefa {
 

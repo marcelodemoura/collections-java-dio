@@ -1,4 +1,4 @@
-package com.estudosJava.pesquisa;
+package com.estudosJava.list.pesquisa;
 
 public class Livro {
 
