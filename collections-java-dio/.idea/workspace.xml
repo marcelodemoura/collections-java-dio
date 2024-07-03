@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado class livro e catalo de livros">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/Ordenacao/Pessoa.java" afterDir="false" />
+    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="organizacao package principal">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Convidado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/ListaConvidados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/estudosJava/pesquisa/CatalogoLivros.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/estudosJava/pesquisa/CatalogoLivros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/list/operacoesBasicas/CarrinhoDeCompras.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/list/operacoesBasicas/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/list/operacoesBasicas/ListaTarefa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/list/operacoesBasicas/Tarefa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/estudosJava/pesquisa/CatalogoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/pesquisa/CatalogoLivros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/operacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/operacoesBasicas/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/ListaTarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/operacoesBasicas/ListaTarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/list/operacoesBasicas/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/operacoesBasicas/Tarefa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/estudosJava/pesquisa/CatalogoLivros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/estudosJava/pesquisa/Livro.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +48,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.CarrinhoDeCompras.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
+    "Application.ListaConvidados.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.OrdenacaoPessoas.executor": "Run",
     "Gradle.collections-java-dio [:Main.main()].executor": "Run",
@@ -71,11 +65,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.estudosJava.set" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="list.operacoesBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OrdenacaoPessoas">
+  <component name="RunManager" selected="Application.ListaConvidados">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.operacoesBasicas.CarrinhoDeCompras" />
       <module name="collections-java-dio.main" />
@@ -102,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.operacoesBasicas.ListaTarefa" />
+    <configuration name="ListaConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.estudosJava.set.ListaConvidados" />
       <module name="collections-java-dio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.operacoesBasicas.*" />
+          <option name="PATTERN" value="com.estudosJava.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.estudosJava.Main" />
+    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.operacoesBasicas.ListaTarefa" />
       <module name="collections-java-dio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.estudosJava.*" />
+          <option name="PATTERN" value="list.operacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListaConvidados" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Application.ListaTarefa" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720009272241</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="criado class pessoa | ordenacao pessoa">
+      <option name="closed" value="true" />
+      <created>1720038212102</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720038212102</updated>
+    </task>
+    <task id="LOCAL-00009" summary="organizacao package principal">
+      <option name="closed" value="true" />
+      <created>1720038525285</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720038525285</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +248,9 @@
     <MESSAGE value="criado carrinho de compra | lista de tarefas" />
     <MESSAGE value="adicionado metodos ao carrinho de compras e lista de tarefas" />
     <MESSAGE value="criado class livro e catalo de livros" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado class livro e catalo de livros" />
+    <MESSAGE value="criado class pessoa | ordenacao pessoa" />
+    <MESSAGE value="organizacao package principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="organizacao package principal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
