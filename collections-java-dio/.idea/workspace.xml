@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado lista de convidados">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Pesquisa/AgendaContato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Pesquisa/Contato.java" afterDir="false" />
+    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado agenda Classes contos e agenda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Ordenacao/CadastroProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Ordenacao/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Convidado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/OperacoesBasicas/Convidado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/ListaConvidados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/OperacoesBasicas/ListaConvidados.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.AgendaContato.executor": "Run",
+    "Application.CadastroProdutos.executor": "Run",
     "Application.CarrinhoDeCompras.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
     "Application.ListaConvidados.executor": "Run",
@@ -69,11 +68,14 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.estudosJava.set" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.estudosJava.set.Ordenacao" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="list.operacoesBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AgendaContato">
+  <component name="RunManager" selected="Application.CadastroProdutos">
     <configuration name="AgendaContato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.estudosJava.set.Pesquisa.AgendaContato" />
       <module name="collections-java-dio.main" />
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.operacoesBasicas.CarrinhoDeCompras" />
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.estudosJava.set.Ordenacao.CadastroProdutos" />
       <module name="collections-java-dio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.operacoesBasicas.*" />
+          <option name="PATTERN" value="com.estudosJava.set.Ordenacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContato" />
         <item itemvalue="Application.ListaConvidados" />
         <item itemvalue="Application.OrdenacaoPessoas" />
         <item itemvalue="Application.CatalogoLivros" />
-        <item itemvalue="Application.CarrinhoDeCompras" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +240,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720047089131</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="criado agenda Classes contos e agenda">
+      <option name="closed" value="true" />
+      <created>1720085445945</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720085445945</updated>
+    </task>
+    <task id="LOCAL-00012" summary="criado agenda Classes contos e agenda">
+      <option name="closed" value="true" />
+      <created>1720085485027</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720085485027</updated>
+    </task>
+    <task id="LOCAL-00013" summary="criado agenda Classes contos e agenda">
+      <option name="closed" value="true" />
+      <created>1720085499199</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720085499199</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +286,8 @@
     <MESSAGE value="criado class pessoa | ordenacao pessoa" />
     <MESSAGE value="organizacao package principal" />
     <MESSAGE value="criado lista de convidados" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado lista de convidados" />
+    <MESSAGE value="criado agenda Classes contos e agenda" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado agenda Classes contos e agenda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
