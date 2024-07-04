@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado agenda Classes contos e agenda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Ordenacao/CadastroProdutos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/set/Ordenacao/Produto.java" afterDir="false" />
+    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado agenda Classes produto e cadastro de produtos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/map/OperacoesBasicas/AgendaContato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,12 +50,13 @@
     "Application.ListaConvidados.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.OrdenacaoPessoas.executor": "Run",
+    "Application.com.estudosJava.map.OperacoesBasicas.AgendaContato.executor": "Run",
     "Gradle.collections-java-dio [:Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Marcelo/IdeaProjects/collections-java-dio",
+    "last_opened_file_path": "C:/Users/Marcelo/IdeaProjects/collections-java-dio/collections-java-dio/src/main/java/com/estudosJava/map/OperacoesBasicas",
     "onboarding.tips.debug.path": "C:/Users/Marcelo/IdeaProjects/collections-java-dio/collections-java-dio/src/main/java/com/estudosJava/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -68,6 +68,9 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.estudosJava.set" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcelo\IdeaProjects\collections-java-dio\collections-java-dio\src\main\java\com\estudosJava\map\OperacoesBasicas" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.estudosJava.set.Ordenacao" />
     </key>
@@ -75,7 +78,7 @@
       <recent name="list.operacoesBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CadastroProdutos">
+  <component name="RunManager" selected="Application.com.estudosJava.map.OperacoesBasicas.AgendaContato">
     <configuration name="AgendaContato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.estudosJava.set.Pesquisa.AgendaContato" />
       <module name="collections-java-dio.main" />
@@ -95,19 +98,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.estudosJava.set.Ordenacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.estudosJava.pesquisa.CatalogoLivros" />
-      <module name="collections-java-dio.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.estudosJava.pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,13 +131,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.estudosJava.map.OperacoesBasicas.AgendaContato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.estudosJava.map.OperacoesBasicas.AgendaContato" />
+      <module name="collections-java-dio.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.estudosJava.map.OperacoesBasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.estudosJava.map.OperacoesBasicas.AgendaContato" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContato" />
         <item itemvalue="Application.ListaConvidados" />
         <item itemvalue="Application.OrdenacaoPessoas" />
-        <item itemvalue="Application.CatalogoLivros" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720085499199</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="criado agenda Classes produto e cadastro de produtos">
+      <option name="closed" value="true" />
+      <created>1720091652445</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720091652445</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +298,8 @@
     <MESSAGE value="organizacao package principal" />
     <MESSAGE value="criado lista de convidados" />
     <MESSAGE value="criado agenda Classes contos e agenda" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado agenda Classes contos e agenda" />
+    <MESSAGE value="criado agenda Classes produto e cadastro de produtos" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado agenda Classes produto e cadastro de produtos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
