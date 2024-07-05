@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado agenda Classes produto e cadastro de produtos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/map/OperacoesBasicas/AgendaContato.java" afterDir="false" />
+    <list default="true" id="6a048fa2-71c8-48e6-91c6-fdb8d7980ef7" name="Changes" comment="criado agenda Class Agenda contato usando o Map">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/map/Pesquisa/EstoqueProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/estudosJava/map/Pesquisa/Produto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/estudosJava/map/OperacoesBasicas/AgendaContato.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/estudosJava/map/OperacoesBasicas/AgendaContato.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
     "Application.CadastroProdutos.executor": "Run",
     "Application.CarrinhoDeCompras.executor": "Run",
     "Application.CatalogoLivros.executor": "Run",
+    "Application.EstoqueProduto.executor": "Run",
     "Application.ListaConvidados.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.OrdenacaoPessoas.executor": "Run",
@@ -78,7 +81,7 @@
       <recent name="list.operacoesBasicas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.estudosJava.map.OperacoesBasicas.AgendaContato">
+  <component name="RunManager" selected="Application.EstoqueProduto">
     <configuration name="AgendaContato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.estudosJava.set.Pesquisa.AgendaContato" />
       <module name="collections-java-dio.main" />
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.estudosJava.set.OperacoesBasicas.ListaConvidados" />
+    <configuration name="EstoqueProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.estudosJava.map.Pesquisa.EstoqueProduto" />
       <module name="collections-java-dio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.estudosJava.set.OperacoesBasicas.*" />
+          <option name="PATTERN" value="com.estudosJava.map.Pesquisa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdenacaoPessoas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.estudosJava.Ordenacao.OrdenacaoPessoas" />
+    <configuration name="ListaConvidados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.estudosJava.set.OperacoesBasicas.ListaConvidados" />
       <module name="collections-java-dio.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.estudosJava.Ordenacao.*" />
+          <option name="PATTERN" value="com.estudosJava.set.OperacoesBasicas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EstoqueProduto" />
         <item itemvalue="Application.com.estudosJava.map.OperacoesBasicas.AgendaContato" />
         <item itemvalue="Application.CadastroProdutos" />
         <item itemvalue="Application.AgendaContato" />
         <item itemvalue="Application.ListaConvidados" />
-        <item itemvalue="Application.OrdenacaoPessoas" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +278,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720091652445</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="criado agenda Class Agenda contato usando o Map">
+      <option name="closed" value="true" />
+      <created>1720099421961</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720099421961</updated>
+    </task>
+    <task id="LOCAL-00016" summary="criado agenda Class Agenda contato usando o Map">
+      <option name="closed" value="true" />
+      <created>1720099439485</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720099439485</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +318,8 @@
     <MESSAGE value="criado lista de convidados" />
     <MESSAGE value="criado agenda Classes contos e agenda" />
     <MESSAGE value="criado agenda Classes produto e cadastro de produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado agenda Classes produto e cadastro de produtos" />
+    <MESSAGE value="criado agenda Class Agenda contato usando o Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado agenda Class Agenda contato usando o Map" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
